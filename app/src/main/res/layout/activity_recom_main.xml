@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CordanaMainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:layout_below="@+id/textView"
+        android:scaleType="fitXY"
+        android:src="@drawable/cordana" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/green"
+        android:text="" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cordana Leaf Disease"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:justificationMode="inter_word"
+                android:textSize="15sp"
+                android:text="Bercak-bercak kuning atau coklat pucat, berbentuk mata atau oval muncul di dekat tepian daun pada daun yang lebih rendah. Ketika tepian daun terinfeksi, bercak-bercak konsentris kecil berkembang yang kemudian menjadi garis-garis panjang di jaringan sel mati berwarna coklat pucat. Garis-garis ini terkadang memanjang hingga pelepah. Daun yang sakit bisa cukup mencolok karena daerah yang terinfeksi biasanya dikelilingi oleh lingkaran berwarna kuning cerah." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:paddingTop="15dp"
+                android:paddingLeft="20dp"
+                android:textSize="17sp"
+                android:text="Penanganan" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:justificationMode="inter_word"
+                android:paddingLeft="20dp"
+                android:text="Tidak ada solusi nabati murni terhadap penyakit ini. Oleh karena itu, pengelolaan lahan pisang yang tepat sangatlah penting. Dalam kasus yang parah, formulasi tembaga organik, misalnya campuran Bordeaux 1%, dapat disemprotkan pada daerah yang terinfeksi." />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
